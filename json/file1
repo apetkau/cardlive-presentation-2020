@@ -1,0 +1,41 @@
+{
+  "timestamp": "2020-08-01 13:12:11.123456",
+  "geo_area_code": "15",
+  "geo_area_name": "Antartica",
+  "rgi_main": [
+    {
+      "Cut_Off": "Perfect",
+      "Pass_Bitscore": "100",
+      "Best_Hit_ARO": "test",
+      "Drug Class": "macrolide antibiotic; cephalosporin"
+    },
+    {
+      "Cut_Off": "Strict",
+      "Pass_Bitscore": "100",
+      "Best_Hit_ARO": "test",
+      "Drug Class": "macrolide antibiotic; cephalosporin"
+    }
+  ],
+  "rgi_kmer": [
+    {
+      "CARD*kmer Prediction": "Enterobacteriaceae (chromosome)",
+      "Taxonomic kmers": "Enterobacteriaceae 10;",
+      "Genomic kmers": "chr + plasmid: 5; plasmid: 0; chr: 100;"
+    }
+  ],
+  "mlst": [
+    {
+      "scheme": "senterica",
+      "sequence_type": "-"
+    }
+  ],
+  "lmat": [
+    {
+      "score": "100",
+      "count": "100",
+      "ncbi_taxon_id": "28901",
+      "rank": "species",
+      "taxonomy_label": "Salmonella enterica"
+    }
+  ]
+}
