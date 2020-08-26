@@ -1,0 +1,16 @@
+name: cardlive-presentation
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - geopandas
+  - numpy
+  - pandas
+  - jupyterlab
+  - dash
+  - matplotlib
+  - jupyter-dash
+  - descartes
+prefix: /home/apetkau/miniconda3/envs/cardlive-presentation
+

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Step 1: First install nodejs. I could not get the proper version installed via conda so I am installing from the website.
+mkdir dependencies
+pushd dependencies
+wget https://nodejs.org/dist/v12.18.3/node-v12.18.3-linux-x64.tar.xz
+tar -xvvf node-v12.18.3-linux-x64.tar.xz
+export PATH=$PWD/node-v12.18.3-linux-x64/bin:$PATH
+popd
+
+# Step 2: Install Jupyter Plotly extension
+jupyter labextension install jupyterlab-plotly
