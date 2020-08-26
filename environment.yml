@@ -1,5 +1,6 @@
 name: cardlive-presentation
 channels:
+  - plotly
   - conda-forge
   - bioconda
   - defaults
