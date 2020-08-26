@@ -4,7 +4,14 @@ This repo contains supplementary code (as a [Jupyter notebook][]) for a presenta
 
 # Code
 
-The code (as a Jupyter Notebook) is available in the file [cardlive-presentation-code.ipynb][]
+The code (as a Jupyter Notebook) is available in the file [cardlive-presentation-code.ipynb][]. To run please install the below dependencies and then do:
+
+```bash
+conda activate cardlive-presentation
+juptyer lab
+```
+
+You should now have Juptyer Lab running on <http://localhost:8888> where you can load up the Juptyer notebook.
 
 # Dependencies
 
@@ -12,7 +19,7 @@ To run the Jupyter notebook locally you will need to install a number of depende
 
 ```bash
 # Create/activate conda environment
-conda create --name cardlive-presentation -c bioconda -c conda-forge -c plotly -c defaults --file conda.env
+conda env create -f environment.yml
 conda activate cardlive-presentation
 ```
 
