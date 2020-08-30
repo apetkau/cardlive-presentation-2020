@@ -4,6 +4,8 @@
 
 This repo contains supplementary code (as a [Jupyter notebook][]) for a presentation on the [CARD:Live][] dashboard. This will walk you through using [Python Dash][] to create an interactive dashboard and plot geographic information.
 
+![dash-callback][]
+
 # Getting started
 
 The easiest way to run this code is via [binder][]. This will launch a virtual machine in the cloud with all the dependencies installed and open up Juptyer for you to follow along.
@@ -54,3 +56,4 @@ jupyter labextension install jupyterlab-plotly
 [conda]: https://docs.conda.io/en/latest/miniconda.html
 [binder-link]: https://mybinder.org/v2/gh/apetkau/cardlive-presentation-2020/presentation-v1?filepath=cardlive-presentation-code.ipynb
 [binder]: https://mybinder.org/
+[dash-callback]: images/dash-callback.gif
