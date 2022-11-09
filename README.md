@@ -1,6 +1,5 @@
 [![Binder](https://mybinder.org/badge_logo.svg)][binder-link]
 
-
 # CARD:Live Presentation code
 
 This repo contains supplementary code (as a [Jupyter notebook][]) for a presentation on the [CARD:Live][] dashboard. This will walk you through using [Python Dash][] to create an interactive dashboard and plot geographic information.
@@ -55,6 +54,6 @@ jupyter labextension install jupyterlab-plotly
 [cardlive-presentation-code.ipynb]: cardlive-presentation-code.ipynb
 [Jupyter notebook]: https://jupyter.org/
 [conda]: https://docs.conda.io/en/latest/miniconda.html
-[binder-link]: https://mybinder.org/v2/gh/apetkau/cardlive-presentation-2020/presentation-v1?filepath=cardlive-presentation-code.ipynb
+[binder-link]: https://mybinder.org/v2/gh/apetkau/cardlive-presentation-2020/main?urlpath=lab%2Ftree%2Fcardlive-presentation-code.ipynb
 [binder]: https://mybinder.org/
 [dash-callback]: images/dash-callback.gif
